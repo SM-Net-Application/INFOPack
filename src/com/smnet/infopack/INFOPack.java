@@ -31,7 +31,7 @@ public class INFOPack extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
 
-        // Languages
+        // Languages 2
 
         File lang = new File(new File("resources", "languages"), "it.properties");
         this.appResources.setLanguage(new PropertiesReader(lang, "- empty -"));
